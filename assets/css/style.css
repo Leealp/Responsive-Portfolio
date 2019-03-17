@@ -125,8 +125,10 @@ ul{
 	padding-bottom: 0px;
 	object-fit: contain;
 	height: 50px;
-
+	border: 2px solid red;
+	width: 100%;
 }
+
 .footer-copyright{
 	color: white;
 	text-align: center;
@@ -336,65 +338,65 @@ div .zoomIn{
 	box-shadow: 50px 50px 50px 50px #ff99aa; }
 }
 
-/* Width at 980px and below */
+
+/* Width at 768px and below */
 @media screen and (max-width: 980px) {
 
   body {
-		background-color : red;
-		font-size: 5rem;
+		background-color : #E9967A;
+		/*font-size: 5rem;*/
 
   }
 
   .container {
-  	background-color: black;
+  	background-color: red;
   	border-style: none;
-    width: 60%;
-    padding: 20px;
+    width: 80%;
   }
 
-  .myinfo, .center-portfolio{
-    background-color: orange;
+ .middle-about-me,
+ .footer, .top{
+  	width: 70%;
   }
 
-  .footer {
-    margin-top:
-    background-color: green;
+  .middle-about-me{
+    width: 80%%;
   }
 }
 
-/* Width at 768px and below */
+  
+
+/* Width at 640px and below */
 @media screen and (max-width: 768px) {
 
   body {
-		background-color : red;
-		font-size: 5rem;
+		background-color : #E9967A;
+		/*font-size: 5rem;*/
 
   }
 
   .container {
-  	background-color: black;
+  	background-color: green;
   	border-style: none;
-    width: 40%;
-    padding: 20px;
+    width: 50%;
   }
 
-  #main-content,
-  #sidebar {
-    width: 100%;
+ .middle-about-me,
+ .footer, .top{
+  	width: 50%;
   }
 
-  .footer {
-    margin-top:
-    background-color: green;
+  .middle-about-me{
+    width: 50%%;
   }
 }
 
-/* Width at 640px and below */
+
 @media screen and (max-width: 640px) {
 
   body {
 		background-color : red;
-		font-size: 5rem;
+		/*font-size: 5rem;*/
 
   }
 
@@ -403,11 +405,6 @@ div .zoomIn{
   	border-style: none;
     width: 30%;
     padding: 20px;
-  }
-
-  #main-content,
-  #sidebar {
-    width: 100%;
   }
 
   .footer {
