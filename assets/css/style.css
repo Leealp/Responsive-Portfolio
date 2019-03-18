@@ -1,7 +1,7 @@
 
 .container{
-	display: flex;
-    flex-direction: column;
+	/*max-width: 600px;*/
+    /*margin: 0 auto;*/
 	width: 1140px;
 	height: 100%;
 	border-style: solid;
@@ -339,13 +339,11 @@ div .zoomIn{
 }
 
 
-/* Width at 768px and below */
+/* Width at 980px and below */
 @media screen and (max-width: 980px) {
 
   body {
 		background-color : #E9967A;
-		/*font-size: 5rem;*/
-
   }
 
   .container {
@@ -366,13 +364,11 @@ div .zoomIn{
 
   
 
-/* Width at 640px and below */
+/* Width at 768px and below */
 @media screen and (max-width: 768px) {
 
   body {
 		background-color : #E9967A;
-		/*font-size: 5rem;*/
-
   }
 
   .container {
@@ -391,26 +387,28 @@ div .zoomIn{
   }
 }
 
-
+ /*Width at 640px and below */
 @media screen and (max-width: 640px) {
 
   body {
-		background-color : red;
-		/*font-size: 5rem;*/
-
+		background-color : #E9967A;
   }
 
   .container {
-  	background-color: black;
+  	background-color: green;
   	border-style: none;
-    width: 30%;
-    padding: 20px;
+    width: 50%;
   }
 
-  .footer {
-    margin-top:
-    background-color: green;
+ .middle-about-me,
+ .footer, .top{
+  	width: 50%;
   }
+
+  .middle-about-me{
+    width: 50%%;
+  }
+
 }
 
 
