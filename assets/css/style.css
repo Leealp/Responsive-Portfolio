@@ -378,8 +378,17 @@ div .zoomIn{
     /*width: 50%;*/
   }
 
+  .myname{
+  	width: 25%;
+  }
+
   .list {
   	width: 60%;
+  	float: left;
+  }
+
+  .center-portfolio{
+  	margin: 0px 10px 0px 10px;
   }
 
   .center {
@@ -411,7 +420,7 @@ div .zoomIn{
   .container {
   	background-color: green;
   	border-style: none;
-    width: 50%;
+    width: 70%;
   }
 
  .middle-about-me,
@@ -430,7 +439,7 @@ div .zoomIn{
   }
 
   .firstlast {
-  	padding-left: 0px;
+  	padding-left: 100px;
   	margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -438,6 +447,7 @@ div .zoomIn{
   .list {
   	width: 100%;
   	height: auto;
+  	padding-left: 100px;
   }
 
   .list ul {
@@ -451,6 +461,27 @@ div .zoomIn{
   	font-size: 14px;
   	float: left;
   }
+
+  .div1 img, .div2 img,
+  .div3 img{
+  	left: 10px;
+  }
+
+  div .div5{
+  	left: 170px;
+  }
+
+.banner1, .banner2, .banner3{
+	left: 10px;
+}
+
+.div6, .div4 img, .div5 img{
+  	left: 170px;
+  }
+
+.banner4, .banner5{
+	left: 170px;
+}
 
 }
 
